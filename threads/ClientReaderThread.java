@@ -1,6 +1,7 @@
+package threads;
 import java.io.BufferedReader;
 
-class ClientReaderThread implements Runnable {
+public class ClientReaderThread implements Runnable {
     private BufferedReader reader;
 
     public ClientReaderThread (BufferedReader reader) {

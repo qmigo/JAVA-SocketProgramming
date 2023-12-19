@@ -1,10 +1,16 @@
+package handlers;
 import java.net.*;
+
+import servers.MultiServer;
+import threads.ReaderThread;
+import threads.WriterThread;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.io.PrintWriter;
 
-class ClientHandler implements Runnable
+public class ClientHandler implements Runnable
 {   
     private Socket clientSocket;
     BufferedReader reader;

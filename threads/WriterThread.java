@@ -1,8 +1,11 @@
+package threads;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
+import servers.MultiServer;
 
-class WriterThread implements Runnable {
+
+public class WriterThread implements Runnable {
 
     private static final BufferedReader consoleReader = new BufferedReader(new InputStreamReader(System.in)); 
     

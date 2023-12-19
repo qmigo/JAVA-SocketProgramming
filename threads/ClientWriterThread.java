@@ -1,8 +1,9 @@
+package threads;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 
-class ClientWriterThread implements Runnable {
+public class ClientWriterThread implements Runnable {
     private PrintWriter writer;
 
     public ClientWriterThread (String userName, PrintWriter writer) {

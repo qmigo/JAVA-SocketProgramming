@@ -1,7 +1,11 @@
+package threads;
 import java.io.BufferedReader;
 
+import handlers.ClientHandler;
+import servers.MultiServer;
 
-class ReaderThread implements Runnable {
+
+public class ReaderThread implements Runnable {
     private ClientHandler source;
     private BufferedReader reader;
     
